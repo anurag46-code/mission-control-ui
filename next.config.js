@@ -14,7 +14,6 @@ const nextConfig = {
     return config;
   },
   // Railway deployment configuration
-  output: 'standalone',
   experimental: {
     webpackBuildWorker: true,
   },
